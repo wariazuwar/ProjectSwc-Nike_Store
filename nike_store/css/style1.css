@@ -1,0 +1,689 @@
+html {
+    background-image: url(image/thumb-1920-370799.jpg);
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header-section {
+    margin-top: 2rem;
+}
+
+.top-header {
+    width: 63%;
+    margin: auto;
+    height: 20px;
+    padding: 1rem;
+    /* background-color:rgb(117, 71, 1); */
+    color: white;
+    /* border-top: rgba(0, 0, 0, 0.507) 2px solid;
+    border-left: rgba(0, 0, 0, 0.466) 2px solid;
+    border-right: rgba(0, 0, 0, 0.39) 2px solid; */
+}
+
+#cart-counter-container {
+    float: right;
+    display: inline;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+#cart-counter {
+    position: relative;
+    top: 4px;
+    font-size: 0.8rem;
+}
+
+#login-register {
+    float: right;
+    display: inline;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+#cart-logo {
+    cursor: pointer;
+    font-size: 2rem;
+    position: relative;
+    top: -5px;
+}
+
+.top-header i {
+    float: right;
+    display: inline;
+}
+
+.header {
+    width: 70%;
+    margin: auto;
+}
+
+.header-inner-div {
+    width: 100%;
+    display: flex;
+    border: 3px solid rgba(0, 0, 0, 0.822);
+    padding: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    border-radius: 30px;
+    margin: auto;
+    max-height: 20px;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+}
+
+.header-inner-div span {
+    font-size: 1.4rem;
+}
+
+.header-inner-div span:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.header-inner-items {
+    width: 100%;
+    text-align: center;
+    margin: center;
+    color: rgb(184, 83, 0);
+    font-weight: bold;
+}
+
+#header-logo {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.548);
+    position: relative;
+}
+
+.homepage-section {
+    width: 63%;
+    padding: 1rem;
+    margin: auto;
+    background-color: rgba(255, 225, 187, 0.5);
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.mySlides {
+    height: 400px;
+    max-height: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.945);
+    border-radius: 10px;
+}
+
+.slideshow-container {
+    width: 85%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+#shop-now-btn {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.753);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    margin: auto;
+}
+
+#shop-now-btn:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+.footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.548);
+    margin-top: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.footer-flex-box {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.footer-flex-items {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.footer-flex-items p {
+    font-size: 0.8rem;
+}
+
+.copyright {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.register-section {
+    width: 63%;
+    padding: 1rem;
+    margin: auto;
+    background-color: rgba(255, 225, 187, 0.5);
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.register-section h2 {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.register-class-container {
+    width: 60%;
+    margin: auto;
+    padding-top: 1rem;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 15px;
+    border: 1px solid black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.register-class-container input {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.register-class-container label {
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+
+/* THIS IS FOR THE PRODUCT CONTAINER */
+
+.product-grid-container {
+    /* display: grid;
+    justify-content: center;
+    background-color: #ffffff77;
+    padding: 10px;
+    border-radius: 10px; */
+    width: 85%;
+    margin: auto;
+    margin-top: 4rem;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    /* grid-auto-flow: column; */
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#product-container {
+    margin: auto;
+    width: 85%;
+}
+
+.grid-item-picture {
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+}
+
+#product-grid-picture {
+    width: 250px;
+    height: 250px;
+}
+
+#grid-product-name {
+    position: relative;
+    top: 10px;
+}
+
+#grid-product-price {
+    position: relative;
+    top: 13px;
+    font-size: 0.9rem;
+}
+
+#product-grid-information {
+    width: 250px;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+
+/* THIS IS FOR THE PRODUCT BUY INFORMATON */
+
+.product-buy-information-flex-box {
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.39);
+    padding: 1rem;
+}
+
+.product-buy-information-left {
+    flex: 3;
+}
+
+.product-buy-information-right {
+    flex: 5;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+#product-img-container {
+    width: 100%;
+}
+
+#product-img {
+    width: 100%;
+    height: 440;
+    max-height: 440;
+    min-height: 440;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.945);
+}
+
+.product-buy-description-container {
+    max-height: 200px;
+    overflow: auto;
+    min-height: 200px;
+}
+
+#add-to-cart-btn {
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 1rem;
+    color: white;
+    background-color: rgb(182, 124, 0);
+}
+
+#add-to-cart-btn:hover {
+    background-color: rgb(158, 108, 1);
+    cursor: pointer;
+}
+
+#add-to-cart-hidden {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.466);
+    position: fixed;
+    top: 0px;
+}
+
+.size-container {
+    width: 20%;
+    margin: auto;
+    margin-top: 7rem;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+    background-color: rgb(255, 250, 238);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.size-container-flex-box {
+    display: flex;
+}
+
+.size-container-flex-box div {
+    width: 100%;
+}
+
+
+/* The container */
+
+.container-radio {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default radio button */
+
+.container-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom radio button */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.container-radio:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the radio button is checked, add a blue background */
+
+.container-radio input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the indicator (dot/circle) when checked */
+
+.container-radio input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the indicator (dot/circle) */
+
+.container-radio .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+#cancel-btn {
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.562);
+    padding: 1rem;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 2rem;
+    width: 100px;
+}
+
+#cancel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.692);
+    cursor: pointer;
+}
+
+.cart-nav-bar {
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 10px 10px 0px 0px;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    background-color: rgba(165, 116, 42, 0.603);
+}
+
+.cart-nav-bar-items {
+    width: 100%;
+    text-align: center;
+}
+
+.cart-nav-bar-items:hover {
+    cursor: pointer;
+}
+
+.cart-nav-bar-items:hover span {
+    border-bottom: 2px solid black;
+}
+
+.cart-container {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.cart-container-flex-box {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+.cart-container-flex-box-left {
+    flex: 4;
+}
+
+.cart-container-flex-box-left-up {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.cart-container-flex-box-left-down {
+    width: 100%;
+    padding: 1rem;
+}
+
+.cart-container-flex-box-left-img {
+    flex: 1;
+}
+
+.cart-container-flex-box-left-title {
+    flex: 3;
+    padding: 1rem;
+}
+
+.cart-container-flex-box-right {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.199);
+    border-left: 1px solid black;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#mycart-image {
+    width: 135px;
+    height: 135px;
+    min-width: 135px;
+    max-width: 135px;
+    min-height: 135px;
+    max-height: 135px;
+}
+
+#mycart-product-title {
+    font-size: 1.3rem;
+}
+
+#mycart-total-price {
+    margin-left: 1rem;
+}
+
+#mycart-btn {
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 80px;
+    margin: auto;
+    margin-top: 1.2rem;
+}
+
+#mycart-btn:hover {
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+}
+
+.paynow-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.paynow-container textarea {
+    width: 70%;
+    height: 100px;
+    padding: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    resize: none;
+}
+
+.address-container-flex {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.address-contianer-left {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.address-container-right {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.address-contianer-left input {
+    width: 100%;
+    height: 30px;
+}
+
+.address-container-right input {
+    width: 100%;
+    height: 30px;
+}
+
+#styling-table2 {
+    width: 100%;
+}
+
+#styling-table2 th {
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(107, 107, 107);
+    text-align: left;
+}
+
+#styling-table2 td {
+    border-bottom: 1px solid rgb(107, 107, 107);
+}
+
+#check-out-btn {
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: rgba(255, 255, 255, 0.582);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#check-out-btn:hover {
+    background-color: rgba(255, 255, 255, 0.808);
+    cursor: pointer;
+}
+
+#credit-cart-hidden {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.692);
+}
+
+#pay-now-btn {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#pay-now-btn:hover {
+    cursor: pointer;
+    background-color: rgb(204, 204, 204);
+}
+
+#close-btn {
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+}
+
+#close-btn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
